@@ -10,9 +10,9 @@ Fullstack (Frontend + Backend + Firebase Realtime Database)
 
 
 ## Deplolyed App
-#Frontend: https://sage-manatee-de736a.netlify.app/
-#Backend: Handled via Firebase
-#Database: Firebase
+Frontend: https://sage-manatee-de736a.netlify.app/
+Backend: Handled via Firebase
+Database: Firebase
 
 
 ## Video Walkthrough of the project
