@@ -37,7 +37,7 @@ If you have downloaded project on your PC then simply open the index.html in the
 
 
 ## Usage
-⦿ Visit the landing page
+-> Visit the landing page
 -> Sign up or login using email and password
 -> Add medications with dosage, frequency, time, and dates
 -> View/edit/delete meds in the dashboard
@@ -47,13 +47,13 @@ If you have downloaded project on your PC then simply open the index.html in the
 
 
 ## Credentials
-Email- abhishek@gmail.com
-Password - 123456
+⦿ Email- abhishek@gmail.com
+⦿ Password - 123456
 
 
 ## Technology Stack 
-Frontend: HTML, CSS, JavaScript.
-Backend: Firebase Realtime Database
-Authentication: Firebase Auth
-Deployment: Netlify
-Icons: Font Awesome
+⦿ Frontend: HTML, CSS, JavaScript.
+⦿ Backend: Firebase Realtime Database
+⦿ Authentication: Firebase Auth
+⦿ Deployment: Netlify
+⦿ Icons: Font Awesome
