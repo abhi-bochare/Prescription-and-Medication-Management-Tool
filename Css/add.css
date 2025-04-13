@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #4c9b6e;
+  margin: 0;
+}
+
+.nav {
+  background-color: #4c9b6e;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 20px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+nav > a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+nav > button {
+  background-color: #e74c3c;
+  border: none;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #4c9b6e;
+  text-align: center;
+}
+
+div#addForm {
+  background-color: #c3d8cc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="date"] {
+  width: calc(100% - 12px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #4c9b6e;
+  border-radius: 5px;
+  color: #575a58;
+}
+
+input::placeholder {
+  color: #c1bdbd;
+}
+
+button {
+  background-color: #4c9b6e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a7e59;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Css/contact.css">
+</head>
+<body>
+  <div class="nav">
+    <nav>
+        <a href="dashboard.html"><i class="fa-solid fa-house-medical"></i> Home</a>
+        <a href="add.html"><i class="fa-solid fa-square-plus"></i> Add Medication</a>
+        <a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i> Medication History</a>
+        <a href="health.html"><i class="fa-solid fa-stethoscope"></i> Health Information</a>
+        <a href="contact.html"><i class="fa-solid fa-id-badge"></i> Contact Us</a>
+        <a href="user.html"><i class="fa-solid fa-user"></i> User</a>
+        <!-- <button id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button> -->
+    </nav>
+  </div>
+
+    <div class="form">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" required>
+
+            <label for="email">Enter Your Email:</label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+
+            <label for="number">Enter Your Phone No.:</label>
+            <input type="tel" id="number" placeholder="1234567890" required>
+
+            <label for="msg">Enter Message:</label>
+            <input type="text" id="msg" placeholder="Your message" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event){
+            event.preventDefault(); 
+            window.location.href = "dashboard.html";
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a45918d84a.js" crossorigin="anonymous"></script>
+</body>
+</html>

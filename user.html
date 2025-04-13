@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Info</title>
+    <link rel="stylesheet" href="Css/health.css" />
+    <style>
+      #profileDisplay {
+        padding: 30px;
+        margin: 20px;
+        max-width: 500px;
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
+      }
+      button {
+        background-color: #e74c3c;
+        border: none;
+        color: #ffffff;
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+        <a href="dashboard.html"
+          ><i class="fa-solid fa-house-medical"></i> Home</a
+        >
+        <a href="add.html"
+          ><i class="fa-solid fa-square-plus"></i> Add Medication</a
+        >
+        <a href="history.html"
+          ><i class="fa-solid fa-clock-rotate-left"></i> Medication History</a
+        >
+        <a href="health.html"
+          ><i class="fa-solid fa-stethoscope"></i> Health Information</a
+        >
+        <a href="contact.html"
+          ><i class="fa-solid fa-id-badge"></i> Contact Us</a
+        >
+        <a href="user.html"><i class="fa-solid fa-user"></i> User</a>
+        <!-- <button id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button> -->
+      </nav>
+    </div>
+
+    <div id="profileDisplay"></div>
+    <button id="logoutBtn">
+      <i class="fa-solid fa-right-from-bracket"></i> Logout
+    </button>
+
+    <script type="module" src="Js/auth.js"></script>
+    <script type="module" src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a45918d84a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

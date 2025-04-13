@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Information</title>
+    <link rel="stylesheet" href="Css/health.css">
+</head>
+<body>
+    <div class="nav">
+    <nav>
+        <a href="dashboard.html"><i class="fa-solid fa-house-medical"></i> Home</a>
+        <a href="add.html"><i class="fa-solid fa-square-plus"></i> Add Medication</a>
+        <a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i> Medication History</a>
+        <a href="health.html"><i class="fa-solid fa-stethoscope"></i> Health Information</a>
+        <a href="contact.html"><i class="fa-solid fa-id-badge"></i> Contact Us</a>
+        <a href="user.html"><i class="fa-solid fa-user"></i> User</a>
+        <!-- <button id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button> -->
+    </nav>
+  </div>
+  <p id="logout-error"></p>
+
+  <h1>Health Information</h1>
+
+  <div id="profile-section">
+    <form id="profileForm">
+      <input type="text" id="pname" placeholder="Name" required />
+      <input type="number" id="age" placeholder="Age" required />
+      <input type="text" id="weight" placeholder="Weight (kg)" required />
+      <select id="gender" required>
+        <option value="">Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="text" id="disease" placeholder="Any disease?" />
+      <input type="text" id="allergies" placeholder="Allergies" />
+      <input type="text" id="doctorName" placeholder="Doctor Name" />
+      <input type="number" id="doctorContact" placeholder="Doctor's Contact No." />
+      <button type="submit">Save Profile</button>
+    </form>
+    <div id="profileDisplay"></div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+  <script src="https://kit.fontawesome.com/a45918d84a.js" crossorigin="anonymous"></script>
+</body>
+</html>
